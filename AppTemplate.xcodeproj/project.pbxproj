@@ -313,6 +313,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ice Mind Training";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to your photo library to add profile photos.";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Your permission helps us measure which advertising campaigns led to app installs and evaluate marketing performance.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -349,6 +350,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ice Mind Training";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to your photo library to add profile photos.";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Your permission helps us measure which advertising campaigns led to app installs and evaluate marketing performance.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;

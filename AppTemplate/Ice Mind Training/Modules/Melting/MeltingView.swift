@@ -24,7 +24,7 @@ struct MeltingView: View {
 
     var body: some View {
         ZStack {
-            Color.white.ignoresSafeArea()
+            
 
             VStack(alignment: .leading, spacing: 24) {
                 // Header
@@ -167,6 +167,7 @@ struct MeltingView: View {
                 .opacity(whatsHappened.trimmingCharacters(in: .whitespaces).isEmpty ? 0.5 : 1)
             }
         }
+        .bg()
         .hideKeyboardOnTap()
     }
 

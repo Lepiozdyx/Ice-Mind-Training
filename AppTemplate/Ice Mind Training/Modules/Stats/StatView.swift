@@ -97,8 +97,6 @@ struct StatView: View {
 
     var body: some View {
         ZStack {
-            Color.white.ignoresSafeArea()
-
             VStack(alignment: .leading, spacing: 20) {
                 // Header
                 HStack {
@@ -404,6 +402,7 @@ struct StatView: View {
                 }
             }
         }
+        .bg()
     }
 }
 

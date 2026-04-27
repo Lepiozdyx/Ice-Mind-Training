@@ -23,7 +23,7 @@ struct FreezingView: View {
 
     var body: some View {
         ZStack {
-            Color.white.ignoresSafeArea()
+            
 
             VStack(alignment: .leading, spacing: 24) {
                 // Header
@@ -168,6 +168,7 @@ struct FreezingView: View {
             }
         }
         .hideKeyboardOnTap()
+        .bg()
     }
 
     func recordEvent() {

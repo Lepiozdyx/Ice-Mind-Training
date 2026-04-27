@@ -9,6 +9,7 @@ struct Ice_Mind_TrainingApp: View {
                 MeltingModel.self,
                 FreezingModel.self,
                 StressLevelModel.self,
+                UserModel.self,
             ])
     }
 }

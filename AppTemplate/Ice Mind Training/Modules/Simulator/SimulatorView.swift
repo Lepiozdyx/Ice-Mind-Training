@@ -18,7 +18,7 @@ struct SimulatorView: View {
 
     var body: some View {
         ZStack {
-            Color.white.ignoresSafeArea()
+            
 
             VStack(alignment: .leading, spacing: 0) {
                 // Header
@@ -245,6 +245,7 @@ struct SimulatorView: View {
                 }
             }
         }
+        .bg()
         .onAppear {
             ensureStressLevelModelExists()
         }
